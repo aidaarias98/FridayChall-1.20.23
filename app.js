@@ -13,7 +13,7 @@ var Person = /** @class */ (function () {
             return "".concat(this.fullName, " ").concat(this.address);
         }
         catch (error) {
-            return error.message;
+            return "there is an error!";
         }
     };
     return Person;

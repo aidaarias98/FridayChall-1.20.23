@@ -17,7 +17,7 @@ class Person{
         try{
             return `${this.fullName} ${this.address}`;
         }catch (error){
-            return error.message;
+            return `there is an error!`;
         }
     }
 }
